@@ -1,0 +1,12 @@
+# Report 2 Review
+### Data Science
+##### Review by Joey Maalouf
+##### Report by Sean Carter and Matthew Ruehle
+
+[This report](https://github.com/matthewruehle/DataScienceApiculture/blob/master/reports/report2.md) aims to explore trends across the United States regarding bees and honey production, using data from [the USDA's Honey Bee Surveys and Reports](https://www.nass.usda.gov/Surveys/Guide_to_NASS_Surveys/Bee_and_Honey/). In particular, the authors look at the relationship between production and prices, as well as correlations between different states.
+
+The presentation is somewhat informal in places, with meta-notes (like a reminder to change the name) and odd references (like a comparison to an indie electronic band). It's fairly obvious that these are supposed to be removed before the final submission, but it seems like good practice to take them out of any submitted drafts as well. There are also explicit QMRI section headers, which makes the report flow a little less smoothly than it otherwise would. Additionally, the numerical values presented are formatted inconsistently: "-0.36" and "-.3", for example.
+
+The figures in the report lack any sort of title that one would expect to be above each figure; while it's pretty clear that the paragraph after each one describes the figure above it, a good title (e.g. "Figure 1: Correlation between Yield and Price") would provide both a figure number for reference and a concise description of what the figure shows. Speaking of figure references, they should be capitalized in the text. Furthermore, Figure 2 would benefit from a proper legend; readers are currently forced to look ahead and read the next paragraph, then go back to the figure, in order to understand what each color represents. Figure 4 could use some sort of units on the axes labels, since the measured unit of honey production doesn't seem to be common knowledge.
+
+The actual results presented in the report are solid; the authors' methods analyses do address their goal of confirming their intuitive hypotheses, as well as providing novel insight into relationships that might not be as obvious. Almost all of the work done focuses on correlations, so the only numerical results shown are correlation coefficients; this is actually fine, since they're some of the most easily understood statistics. The reader is given enough information about the process to understand how these results are calculated without being subjected to an overwhelming amount of content.
